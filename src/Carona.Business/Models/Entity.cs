@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Carona.Business.Models
+namespace Business.Models
 {
     public abstract class Entity
     {

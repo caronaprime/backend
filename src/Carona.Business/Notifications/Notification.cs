@@ -1,4 +1,4 @@
-﻿namespace Carona.Business.Notifications
+﻿namespace Business.Notifications
 {
     public class Notification
     {

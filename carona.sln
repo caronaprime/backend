@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{716D0FF2-671
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B71C0C6E-CB85-4961-871B-77CFA89FB5A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carona.Data", "src\Carona.Data\Carona.Data.csproj", "{D798EF9F-5D97-458A-8B82-0322FF7AF929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "src\Carona.Data\Data.csproj", "{D798EF9F-5D97-458A-8B82-0322FF7AF929}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carona.Business", "src\Carona.Business\Carona.Business.csproj", "{436B6839-A90C-4B27-8D1F-6B86AB7CC11E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "src\Carona.Business\Business.csproj", "{436B6839-A90C-4B27-8D1F-6B86AB7CC11E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carona.Web", "src\Carona.Web\Carona.Web.csproj", "{20C48C4B-27C9-4238-9724-AD7C2B3DF8CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Carona.Web\Web.csproj", "{20C48C4B-27C9-4238-9724-AD7C2B3DF8CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carona.Test", "src\Carona.Test\Carona.Test.csproj", "{7AAFB61E-9CBA-4CEF-81A8-835BDC618DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\Carona.Test\Test.csproj", "{7AAFB61E-9CBA-4CEF-81A8-835BDC618DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

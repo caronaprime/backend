@@ -1,7 +1,7 @@
-﻿using Carona.Business.Notifications;
+﻿using Business.Notifications;
 using System.Collections.ObjectModel;
 
-namespace Carona.Business.Interfaces
+namespace Business.Interfaces
 {
     public interface INotifier
     {

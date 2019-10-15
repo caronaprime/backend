@@ -1,8 +1,8 @@
-﻿using Carona.Business.Enums;
+﻿using Business.Enums;
 using System;
 using System.Collections.Generic;
 
-namespace Carona.Business.Models
+namespace Business.Models
 {
     public class Viagem : Entity
     {

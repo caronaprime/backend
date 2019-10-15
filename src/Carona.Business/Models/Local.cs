@@ -1,4 +1,4 @@
-﻿namespace Carona.Business.Models
+﻿namespace Business.Models
 {
     public class Local : Entity
     {

@@ -1,10 +1,10 @@
-﻿using Carona.Business.Models;
+﻿using Business.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Carona.Business.Interfaces
+namespace Business.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
