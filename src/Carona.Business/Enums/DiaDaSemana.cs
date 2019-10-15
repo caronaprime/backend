@@ -1,4 +1,4 @@
-﻿namespace Carona.Business.Enums
+﻿namespace Business.Enums
 {
     public enum DiaDaSemana
     {

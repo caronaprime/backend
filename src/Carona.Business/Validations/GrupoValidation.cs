@@ -1,8 +1,8 @@
-﻿using Carona.Business.Models;
+﻿using Business.Models;
 using FluentValidation;
 using System.Linq;
 
-namespace Carona.Business.Validations
+namespace Business.Validations
 {
     class GrupoValidation : AbstractValidator<Grupo>
     {

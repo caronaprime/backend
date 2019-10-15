@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Carona.Business.Models
+namespace Business.Models
 {
     public class Grupo : Entity
     {

@@ -1,6 +1,12 @@
-﻿namespace Carona.Business.Models
+﻿using System.Collections.Generic;
+
+namespace Business.Models
 {
-    public abstract class Pessoa : Entity
+    public class Pessoa : Entity
     {
+        public string Nome { get; set; }
+        public IEnumerable<Pessoa> Amigos { get; set; }
+        public IEnumerable<Grupo> Grupos { get; set; }
+        public IEnumerable<Viagem> Viagens { get; set; }
     }
 }

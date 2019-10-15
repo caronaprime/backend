@@ -1,8 +1,8 @@
-﻿using Carona.Business.Models;
+﻿using Business.Models;
 using System;
 using System.Threading.Tasks;
 
-namespace Carona.Business.Interfaces
+namespace Business.Interfaces
 {
     public interface IService<TEntity> where TEntity : Entity
     {
