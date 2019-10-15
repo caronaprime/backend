@@ -8,7 +8,7 @@ namespace Carona.Business.Models
     {
         public DateTime Hora { get; set; }
         public DiaDaSemana DiaDaSemana { get; set; }
-        public Motorista Motorista { get; set; }
+        public Pessoa Motorista { get; set; }
         public IEnumerable<Pessoa> Caroneiros { get; set; }
     }
 }
