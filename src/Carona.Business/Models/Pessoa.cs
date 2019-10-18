@@ -5,8 +5,8 @@ namespace Business.Models
     public class Pessoa : Entity
     {
         public string Nome { get; set; }
-        public IEnumerable<Pessoa> Amigos { get; set; }
-        public IEnumerable<Grupo> Grupos { get; set; }
-        public IEnumerable<Viagem> Viagens { get; set; }
+        public IEnumerable<PessoaAmigo> Amigos { get; set; }
+        public IEnumerable<PessoaGrupo> Grupos { get; set; }
+        public IEnumerable<PessoaViagem> Viagens { get; set; }
     }
 }
