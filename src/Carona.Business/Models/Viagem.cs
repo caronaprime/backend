@@ -9,6 +9,6 @@ namespace Business.Models
         public DateTime Hora { get; set; }
         public DiaDaSemana DiaDaSemana { get; set; }
         public Pessoa Motorista { get; set; }
-        public IEnumerable<Pessoa> Caroneiros { get; set; }
+        public IEnumerable<PessoaViagem> Caroneiros { get; set; }
     }
 }

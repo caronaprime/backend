@@ -6,7 +6,7 @@ namespace Business.Models
     {
         public string Nome { get; set; }
         public Pessoa Administrador { get; set; }
-        public IEnumerable<Pessoa> Membros { get; set; }
+        public IEnumerable<PessoaGrupo> Membros { get; set; }
         public IEnumerable<Rota> Rotas { get; set; }
     }
 }
